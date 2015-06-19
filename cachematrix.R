@@ -1,6 +1,6 @@
-## Creates cached versoin of matrix inverse to allow for repeat processing of large matrices
+## Creates cachable version of solve() function to allow for repeat processing of large matrices
 
-## Creates a version of the original matrix with placeholders for the cached inverse
+## This function creates a list linked to the matrix with placeholders for the cached inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
